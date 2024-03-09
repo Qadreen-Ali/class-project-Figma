@@ -1,0 +1,60 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.logocontainer{
+display: flex;
+flex: 1;
+}
+.logocontainer > img{
+    object-fit: contain;
+    width: 60px;
+    height: 60px;
+}
+.gem{
+   padding-top: 18px;
+   font-weight: 400;
+  
+}
+/* .menucontainer{
+   
+} */
+.listItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    list-style: none;
+    flex: 2;
+}
+.listItem li{
+ font-size: 20px;
+    margin-right: 20px;
+}
+ .home{
+    color: #6B03C1;
+}
+.buttoncontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 17px;
+    margin-left: 80px;
+    flex: 1;
+}
+.menuIcon{
+    font-size: 12px;
+}
+.login{
+    font-weight: 100;
+}
+.register{
+    background-color: #6B03C1;
+    color: #fff;
+    width: 140px;
+    height: 40px;
+    border: 1px solid #6B03C1;
+    border-radius: 8px;
+}

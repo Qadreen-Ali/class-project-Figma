@@ -1,0 +1,58 @@
+.heroXContainer{
+margin-top: 100px;
+color: black;
+}
+.heroTitle{
+    font-size: 4rem;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+.gemstonecontainer{
+    display: flex;
+    align-items: center;
+    margin: 0px 40px;
+
+}
+.gemstoneleft{
+    padding: 0px 80px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.gemstonetitle{
+    font-size: 3rem;
+    font-weight: 400;
+}
+.h1titleimg{
+    width: 60px;
+    object-fit: cover;
+}
+.gemstonepara{
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 25px;
+    word-spacing: 2px;
+}
+.gembtn{
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 100;
+    color: white;
+    background-color: #6B03C1;
+   align-self: end;
+   border-radius: 5px;
+}
+.gemstoneright{
+    padding: 40px;
+}
+.gemstoneimg{
+    width: 530px;
+    height: 600px;
+    object-fit: contain;
+    border-radius: 10px;
+}
