@@ -31,7 +31,7 @@ function Hero3() {
     <div className='herocontainer'>
       <img src={pic4} alt="" className="heroimg" />
  <div className="contentcontainer">
- <h1 className="heroTitle">Gemstones Articles</h1>
+ <h1 className="heroTitleHeading">Gemstones Articles</h1>
       <p className="paracontent">Unveiling the World of Gemstones: In-depth Articles
        and Insights on the Beauty, History, and Mystique of Earth's Precious Treasures</p>
  </div>

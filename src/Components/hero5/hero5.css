@@ -1,0 +1,79 @@
+.rawcontainer{
+    width: 100%;
+    height: 100%;
+  
+
+}
+.rawContent{
+    margin: 20px;
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+}
+.rawTitle{
+    font-size: 50px;
+    font-weight: bold;
+}
+.rawpara{
+    font-size: 22px;
+    font-weight: normal;
+    letter-spacing: 0.6px;
+}
+.backimg{
+    width: 100%;
+    height: 350vh;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+}
+.rawCardContainer{
+    width: 100%;
+    display: flex;
+  gap:20px;
+    flex-direction: column;
+}
+.rawCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    color: #444867;
+    border-radius: 16px;
+    height: 380px;
+    width: 1000px;
+    gap: 30px;
+    position: relative;
+   padding: 20px;
+   margin-top: 30px;
+margin-left: 100px;
+}
+.rawCardleft{
+    width: 500px;
+    padding: 20px;
+    align-items: center;
+   
+   
+}
+.rawCardTitle{
+    margin-top: 20px;
+  padding-left: 30px;
+  font-weight: bold;
+}
+.rawCardPara{
+    color: #000;
+    font-size: 18px;
+    margin-top: 50px;
+}
+.rawCardImg{
+    width: 370px;
+    height: 317px;
+    object-fit: cover;
+    z-index: 1;
+    position: relative;
+}
+.rawCardright{
+    margin-right: 20px;
+}
+.viewbtn{
+    margin-top: 100px;
+}
